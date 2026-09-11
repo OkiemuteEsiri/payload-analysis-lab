@@ -1,0 +1,18 @@
+[
+  {
+    "finding_id": "EXAMPLE-VALIDATED",
+    "change_reference": "CHG-SYN-1042",
+    "artifact_removed": true,
+    "endpoint_rechecked": true,
+    "telemetry_clean": true,
+    "analyst_notes": "Synthetic example: artifact absent and follow-up telemetry clean."
+  },
+  {
+    "finding_id": "EXAMPLE-INCOMPLETE",
+    "change_reference": "",
+    "artifact_removed": true,
+    "endpoint_rechecked": false,
+    "telemetry_clean": false,
+    "analyst_notes": "Synthetic example intentionally lacks closure evidence."
+  }
+]

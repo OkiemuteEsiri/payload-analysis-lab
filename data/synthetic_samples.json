@@ -1,0 +1,42 @@
+[
+  {
+    "sample_id": "SYN-001",
+    "sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+    "file_name": "quarterly-review-helper.bin",
+    "file_type": "synthetic-binary-metadata",
+    "host": "FIN-WS-017",
+    "asset_criticality": "high",
+    "privileged_context": true,
+    "features": ["process_injection", "credential_access", "external_communication", "unsigned_binary"]
+  },
+  {
+    "sample_id": "SYN-002",
+    "sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+    "file_name": "inventory-maintenance.ps1.txt",
+    "file_type": "synthetic-script-metadata",
+    "host": "OPS-WS-042",
+    "asset_criticality": "medium",
+    "privileged_context": false,
+    "features": ["script_interpreter", "autostart_change"]
+  },
+  {
+    "sample_id": "SYN-003",
+    "sha256": "3333333333333333333333333333333333333333333333333333333333333333",
+    "file_name": "vendor-update-package.meta",
+    "file_type": "synthetic-package-metadata",
+    "host": "ENG-VDI-008",
+    "asset_criticality": "high",
+    "privileged_context": false,
+    "features": ["packed_content", "tool_transfer", "external_communication"]
+  },
+  {
+    "sample_id": "SYN-004",
+    "sha256": "4444444444444444444444444444444444444444444444444444444444444444",
+    "file_name": "training-template.docm.meta",
+    "file_type": "synthetic-document-metadata",
+    "host": "TRAIN-WS-003",
+    "asset_criticality": "low",
+    "privileged_context": false,
+    "features": ["macro_execution"]
+  }
+]
